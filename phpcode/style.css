@@ -1,0 +1,131 @@
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.bg-image {
+	/* Full height */
+	height: 50%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* Images used */
+
+.img1 {
+	background-image: url("https://s2.best-wallpaper.net/wallpaper/2560x1600/1412/Two-cups-of-coffee-beans_2560x1600.jpg");
+}
+
+.img2 {
+	background-image: url("https://www.adamsandrussell.co.uk/wp-content/uploads/2018/08/coffee-types-explained-1024x1024.jpg");
+}
+
+.img3 {
+	background-image: url("https://cdn.shopify.com/s/files/1/0099/8454/0772/files/Coffee_Beans_in_Bags_1440x743.jpg?v=1552671374");
+}
+
+
+/* Position text in the middle of the page/image */
+
+.bg-text {
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/opacity/see-through */
+	color: white;
+	font-weight: bold;
+	font-size: 80px;
+	border: 10px solid #f1f1f1;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+}
+
+#myHeader {
+	background-color: black;
+	color: lightblue;
+	padding: 20px;
+	text-align: center;
+}
+
+body {
+	background-color: pink;
+}
+
+h1 {
+	color: black;
+}
+
+p {
+	color: red;
+}
+
+a:link,
+a:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover,
+a:active {
+	background-color: red;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111111;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
